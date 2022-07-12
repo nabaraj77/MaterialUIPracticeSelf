@@ -11,7 +11,8 @@ const RangeSelectorPractice = () => {
   };
   return (
     <div style={{ width: 300 }}>
-      <Slider value={val} onChange={rangeHandler} />
+      <p>Range Selector</p>
+      <Slider value={val} onChange={rangeHandler} valueLabelDisplay="auto" />
     </div>
   );
 };

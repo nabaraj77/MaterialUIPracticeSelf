@@ -6,6 +6,7 @@ import Stack from "@mui/material/Stack";
 export default function DescriptionAlerts() {
   return (
     <Stack sx={{ width: "50%" }} spacing={2}>
+      <p>Alert</p>
       <Alert severity="error">
         <AlertTitle>Error</AlertTitle>
         This is an error alert — <strong>check it out!</strong>
