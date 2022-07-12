@@ -11,6 +11,8 @@ import TextFieldPrac from "./TextFieldPrac";
 import SwitchPrac from "./SwitchPrac";
 import BoxPrac from "./BoxPrac";
 
+import ComponentPrac from "./ComponentPrac";
+
 const App = () => {
   return (
     <div className="App">
@@ -26,6 +28,7 @@ const App = () => {
       <TextFieldPrac />
       <SwitchPrac />
       <BoxPrac />
+      <ComponentPrac />
     </div>
   );
 };
