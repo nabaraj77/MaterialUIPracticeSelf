@@ -4,6 +4,8 @@ import Button from "./Button";
 import Checkbox1 from "./Checkbox1";
 import Alert1 from "./Alert1";
 import RadioBtn from "./RadioBtn";
+import Slider1 from "./Slider1";
+import RangeSelectorPractice from "./RangeSelectorPractice";
 
 const App = () => {
   return (
@@ -14,6 +16,8 @@ const App = () => {
       <Checkbox1 />
       <Alert1 />
       <RadioBtn />
+      <Slider1 />
+      <RangeSelectorPractice />
     </div>
   );
 };
