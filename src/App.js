@@ -9,6 +9,7 @@ import RangeSelectorPractice from "./RangeSelectorPractice";
 import SelectPractice from "./SelectPractice";
 import TextFieldPrac from "./TextFieldPrac";
 import SwitchPrac from "./SwitchPrac";
+import BoxPrac from "./BoxPrac";
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
       <SelectPractice />
       <TextFieldPrac />
       <SwitchPrac />
+      <BoxPrac />
     </div>
   );
 };
