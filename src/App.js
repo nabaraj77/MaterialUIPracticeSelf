@@ -10,8 +10,8 @@ import SelectPractice from "./SelectPractice";
 import TextFieldPrac from "./TextFieldPrac";
 import SwitchPrac from "./SwitchPrac";
 import BoxPrac from "./BoxPrac";
-
 import ComponentPrac from "./ComponentPrac";
+import GridPrac from "./GridPrac";
 
 const App = () => {
   return (
@@ -29,6 +29,7 @@ const App = () => {
       <SwitchPrac />
       <BoxPrac />
       <ComponentPrac />
+      <GridPrac />
     </div>
   );
 };
